@@ -7,17 +7,17 @@ repository: https://github.com/espresso3389/pdfrx/tree/master/packages/pdfium_fl
 issue_tracker: https://github.com/espresso3389/pdfrx/issues
 
 environment:
-  sdk: ^3.11.0
-  flutter: ">=3.41.0"
+  sdk: ^3.12.0
+  flutter: ">=3.44.0"
 
 dependencies:
   pdfium_dart:
     git: https://github.com/kumsumit/pdfium_dart.git
-  code_assets: ^1.0.0
+  code_assets: ^1.2.1
   ffi: ^2.2.0
   flutter:
     sdk: flutter
-  hooks: ^1.0.3
+  hooks: ^2.0.2
   path: ^1.9.1
 
 dev_dependencies:
